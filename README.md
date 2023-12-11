@@ -12,6 +12,5 @@ The data layers uses Entity Framework and SQLite. Entity Framework is easy to ad
 ![Datastore Diagram](./StockApi-db-diagram.png "Stock API db diagram")
 
 ## Notes
-* There are several improvements that could have been added in its current form that are marked with comments.
-* The spec requires a simple API, however in its current - simple form, it cannot satisfy the requirements for real-time notifications.
+* The spec required a simple API, however in its current - simple form, it cannot satisfy the requirements for real-time notifications.
 * Although, effort has been made to make the solution extensible, the time spend (just over 2 hours) was not enough to produce a scalable and resilient solution, assuming that real data would be used to feed the exchanges.
